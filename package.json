@@ -1,0 +1,20 @@
+{
+  "name": "newstorefashion",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas del sistema newStoreFashion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "QA",
+    "automation"
+  ],
+  "author": "JaviDev21",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.4.1",
+    "git": "^0.1.5"
+  },
+  "devDependencies": {}
+}
