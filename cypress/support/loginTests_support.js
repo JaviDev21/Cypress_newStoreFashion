@@ -1,0 +1,9 @@
+Cypress.Commands.add('login',(email,password,value)=>{
+    cy.fixture('loginTests_fixtures').then((login)=>{
+        cy.get(login.SignImButton).click()
+        cy.get(login.emailTextInput).type(email)
+        cy.get(login.passwdTextInput).type(password)
+        cy.get(login.signInButton).click()
+        cy.get(login.errorTextAlert).should('contain',value)
+    })
+})

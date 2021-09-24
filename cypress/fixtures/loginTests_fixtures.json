@@ -1,0 +1,9 @@
+{
+    "SignImButton":".login",
+    "emailTextInput":"#email",
+    "passwdTextInput":"#passwd",
+    "signInButton":"#SubmitLogin > span",
+    "errorTextAlert":"ol > li"
+    
+
+}
